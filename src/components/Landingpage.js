@@ -19,11 +19,11 @@ const Landingpage = () => {
         />
 
 
-    <div className="absolute top-0 w-full">
+    <div className="absolute w-max top-0">
 
 
-    <div>
-          <nav className=" my-8 flex w-full justify-center items-center">
+    <div className="bg-red-500">
+          <nav className=" my-8 flex bg-blue-600 justify-between items-center">
             <div className="flex justify-start">
               <div className=" flex mx-6 w-3/5 relative justify-start">
                 <img src={Vector_1} alt="" className="md:w-3/5" />
