@@ -28,7 +28,7 @@ const Landingpage = () => {
                   </p>
                 </div>
               </div>
-              <div className="text-3xl text-white flex items-center gap-20">
+              <div className="text-2xl text-white flex items-center gap-20">
                 <div className="flex">
                   <Dropdown title="About Us" className=" justify-center">
                     <div className="flex flex-col  bg-gradient-to-l from-[#4260D7] to-indigo-400 py-4 px-6  rounded-3xl text-2xl w-max my-6 absolute z-50">
@@ -64,7 +64,7 @@ const Landingpage = () => {
                 </div>
                 <div>
                   <Dropdown title="Community" className=" bg-transparent">
-                    <div className="flex flex-col bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-2xl text-xl w-max my-4 absolute z-50">
+                    <div className="flex flex-col bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-3xl text-2xl w-max my-4 absolute z-50">
                       <NavLink to='/community' className="py-4 mx-4">
                         Community
                       </NavLink>
@@ -79,7 +79,7 @@ const Landingpage = () => {
                 </div>
                 <div>
                   <Dropdown title="Research" className=" bg-transparent">
-                    <div className="flex flex-col bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-xl text-xl w-max my-4 absolute z-50">
+                    <div className="flex flex-col bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-3xl text-2xl w-max my-4 absolute z-50">
                       <NavLink to='/research papers' className="py-4 mx-4">
                         Reasearch Papers
                       </NavLink>
@@ -94,7 +94,7 @@ const Landingpage = () => {
                 </div>
                 <div>
                   <Dropdown title="Validator" className=" bg-transparent">
-                    <div className="bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-xl text-lg w-max absolute z-50 my-4">
+                    <div className="bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-3xl text-2xl w-max absolute z-50 my-4">
                       <NavLink to="/become a validator" className="py-4 mx-4">
                         Become a Validator
                       </NavLink>
