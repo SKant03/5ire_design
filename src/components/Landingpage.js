@@ -41,7 +41,7 @@ const Landingpage = () => {
           <Email/>
 
           {/* cards */}
-          <section className="flex justify-between mx-36 md:mx-60 w-5/6 md:mt-28 ">
+          <section className="flex justify-between mx-36 md:mx-60 md:mt-28 ">
             <div>
               <div className="container">
                 <div className="box text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-white flex items-center">
