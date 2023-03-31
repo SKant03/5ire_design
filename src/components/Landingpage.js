@@ -32,7 +32,7 @@ const Landingpage = () => {
                 </p>
               </div>
             </div>
-            <div className="text-3xl text-black flex items-center justify-between w-5/6 mx-6">
+            <div className="text-3xl text-white flex items-center justify-between w-5/6 mx-6">
               <div className="flex">
                 <Dropdown title="About Us" className="">
                   <div className="bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-xl text-xl w-max my-10 absolute">
@@ -54,7 +54,7 @@ const Landingpage = () => {
                 <Dropdown title="Testnet" className=" bg-transparent ">
                   <div
                     className="bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-xl text-xl
-                  w-max my-4  z-50"
+                  w-max my-4 absolute z-50"
                   >
                     <DropdownItem className="py-4 mx-4">Testnet</DropdownItem>
                     <DropdownItem className="py-4 mx-4">
@@ -68,7 +68,7 @@ const Landingpage = () => {
               </div>
               <div>
                 <Dropdown title="Community" className=" bg-transparent">
-                  <div className="bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-xl text-xl w-max my-4  z-50">
+                  <div className="bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-xl text-xl w-max my-4 absolute z-50">
                     <DropdownItem className="py-4 mx-4">Community</DropdownItem>
                     <DropdownItem className="py-4 mx-4">
                       5ire Ambassdor
@@ -81,7 +81,7 @@ const Landingpage = () => {
               </div>
               <div>
                 <Dropdown title="Research" className=" bg-transparent">
-                  <div className="bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-xl text-xl w-max my-4  z-50">
+                  <div className="bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-xl text-xl w-max my-4 absolute z-50">
                     <DropdownItem className="py-4 mx-4">
                       Reasearch Papers
                     </DropdownItem>
@@ -96,7 +96,7 @@ const Landingpage = () => {
               </div>
               <div>
                 <Dropdown title="Validator" className=" bg-transparent">
-                  <div className="bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-xl text-xl w-max my-4">
+                  <div className="bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-xl text-xl w-max absolute z-50 my-4">
                     <DropdownItem className="py-4 mx-4">
                       Become a Validator
                     </DropdownItem>
