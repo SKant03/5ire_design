@@ -10,29 +10,29 @@ import { NavLink } from "react-router-dom";
 const Landingpage = () => {
   return (
     <>
-
-<video
+    <div className="">
+    <video
           src={videoBg}
           autoPlay="{true}"
           loop="{true}"
-          className="md:w-screen md:h-full h-screen object-cover"
+          className=""
         />
 
 
-    <div className="absolute w-max top-0">
+    <div className="absolute w-screen top-0">
 
 
-    <div className="bg-red-500">
-          <nav className=" my-8 flex bg-blue-600 justify-between items-center">
+    <div className="">
+          <nav className=" my-8 flex justify-center items-center">
             <div className="flex justify-start">
-              <div className=" flex mx-6 w-3/5 relative justify-start">
+              <div className=" flex w-2/5 justify-start">
                 <img src={Vector_1} alt="" className="md:w-3/5" />
                 <p className="flex items-center text-transparent text-6xl bg-clip-text bg-gradient-to-r from-indigo-400 to-white ">
                   5ire
                 </p>
               </div>
             </div>
-            <div className="text-3xl text-white flex items-center justify-between w-5/6 mx-6">
+            <div className="text-2xl text-white flex items-center justify-between w-5/6">
               <div className="flex">
                 <Dropdown title="About Us" className="">
                   <div className="bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-xl text-xl w-max my-10 absolute">
@@ -111,7 +111,7 @@ const Landingpage = () => {
               <div className="relative -4">
                 <NavLink
                   to="/5ire Explorer"
-                  className="bg-[#01FFA4] px-8 mx-6 text-xl h-[50px] font-semibold flex justify-end items-center rounded-full text-black"
+                  className="bg-[#01FFA4] px-8 text-xl h-[50px] font-semibold flex justify-end items-center rounded-full text-black"
                 >
                   5ire Explorer
                 </NavLink>
@@ -176,7 +176,7 @@ const Landingpage = () => {
 
         </section>
     </div>
-    
+    </div>
     </>
   );
 };
