@@ -1,11 +1,16 @@
 import React from 'react'
-import Landingpage from './components/Landingpage'
+import Herosection from './components/Herosection'
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+
 
 const App = () => {
   return (
-    <div>
-      <Landingpage/>
-    </div>
+    <Router>
+      <Routes>
+         <Route exact path="/" element={<Herosection/>}/>
+      </Routes>
+    </Router>
   )
 }
 
