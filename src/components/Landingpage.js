@@ -96,7 +96,7 @@ const Landingpage = () => {
               </div>
               <div>
                 <Dropdown title="Validator" className=" bg-transparent">
-                  <div className="bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-xl text-xl w-max absolute z-50 my-4">
+                  <div className="bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-xl text-lg w-max absolute z-50 my-4">
                     <DropdownItem className="py-4 mx-4">
                       Become a Validator
                     </DropdownItem>
