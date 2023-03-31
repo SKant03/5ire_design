@@ -10,16 +10,16 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <nav className=" my-8 flex gap-20 justify-center w-full items-center">
+      <nav className=" my-8 flex px-20 gap-10 justify-center w-full items-center">
               <div className="flex justify-start">
                 <div className=" flex w-3/5 justify-start">
                   <img src={Vector_1} alt="" className="md:w-3/5" />
-                  <p className="flex items-center text-transparent text-6xl bg-clip-text bg-gradient-to-r from-indigo-400 to-white ">
+                  <p className="flex items-center text-transparent md:text-7xl text-6xl bg-clip-text bg-gradient-to-r from-indigo-400 to-white ">
                     5ire
                   </p>
                 </div>
               </div>
-              <div className="md:text-4xl text-2xl text-white flex items-center gap-16">
+              <div className="md:text-3xl text-2xl text-white flex items-center gap-16">
                 <div className="flex">
                   <Dropdown title="About Us" className=" justify-center">
                     <div className="flex flex-col  bg-gradient-to-l from-[#4260D7] to-indigo-400 opacity-95 py-4 px-6  rounded-3xl text-2xl w-max my-6 absolute z-50">
