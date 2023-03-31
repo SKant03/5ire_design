@@ -121,13 +121,13 @@ const Landingpage = () => {
         </div>
 
         <div className="text-center  my-20 flex flex-col gap-10 items-center z-0">
-          <p className="text-transparent text-4xl md:text-8xl bg-clip-text bg-gradient-to-r from-[#77FFE7] to-white z-0">
+          <p className="text-transparent text-4xl md:text-9xl bg-clip-text bg-gradient-to-r from-[#77FFE7] to-white z-0">
             BLOCKCHAIN
           </p>
-          <p className="text-transparent text-4xl md:text-8xl bg-clip-text bg-gradient-to-r from-[#77FFE7] to-indigo-400">
+          <p className="text-transparent text-4xl md:text-9xl bg-clip-text bg-gradient-to-r from-[#77FFE7] to-indigo-400">
             MEETS
           </p>
-          <p className="text-transparent text-4xl md:text-8xl bg-clip-text bg-gradient-to-r from-indigo-400 to-white ">
+          <p className="text-transparent text-4xl md:text-9xl bg-clip-text bg-gradient-to-r from-indigo-400 to-white ">
             SUSTAINABLITY
           </p>
         </div>
