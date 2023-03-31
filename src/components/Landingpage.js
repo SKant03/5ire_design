@@ -32,7 +32,7 @@ const Landingpage = () => {
                 </p>
               </div>
             </div>
-            <div className="text-2xl text-white flex items-center gap-20">
+            <div className="text-3xl text-white flex items-center gap-20">
               <div className="flex">
                 <Dropdown title="About Us" className="">
                   <div className="bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-xl text-xl w-max my-10 absolute">
@@ -133,7 +133,7 @@ const Landingpage = () => {
         </div>
 
         {/* cards */}
-        <section className="flex justify-between mx-80 md:my-20">
+        <section className="flex justify-between mx-60 md:my-20">
           <div>
           <div className="container">
             <div className="box text-white flex items-center">

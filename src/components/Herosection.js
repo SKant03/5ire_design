@@ -27,7 +27,7 @@ const Herosection = () => {
                 </p>
               </div>
             </div>
-            <div className="text-3xl text-white flex items-center justify-between w-5/6 top-0 mx-6">
+            <div className="text-3xl text-white flex items-center justify-between mx-6">
               <div className="flex">
                 <Dropdown title="About Us" className="absolute">
                   <div className="bg-gradient-to-l from-[#457387] to-[#10171B] p-4 rounded-xl text-xl w-max my-p">
