@@ -28,7 +28,7 @@ const Landingpage = () => {
                   </p>
                 </div>
               </div>
-              <div className="text-2xl text-white flex items-center gap-20">
+              <div className="text-3xl text-white flex items-center gap-20">
                 <div className="flex">
                   <Dropdown title="About Us" className=" justify-center">
                     <div className="flex flex-col  bg-gradient-to-l from-[#4260D7] to-indigo-400 py-4 px-6  rounded-3xl text-2xl w-max my-6 absolute z-50">
