@@ -133,7 +133,7 @@ const Landingpage = () => {
         </div>
 
         {/* cards */}
-        <section className="flex justify-between mx-36 w-5/6 md:my-28">
+        <section className="flex justify-between mx-36 w-5/6 md:mt-28">
           <div>
           <div className="container">
             <div className="box text-white flex items-center">
