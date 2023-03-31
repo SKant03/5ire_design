@@ -5,19 +5,13 @@
   background-color: blueviolet;
 }
 
-@media only screen and (min-width: 768px) {
-  body {zoom: 75%;}
-}
-
-@media only screen and (min-width: 1080px) {
-  body {zoom: 100%;}
-}
-
-
-
 body{
   margin: 0;
 }
+
+@media (max-width: 1920px) and (min-width: 768px) {
+  body {zoom: 85%;}
+} 
 
 *{
   margin: 0;
@@ -53,7 +47,7 @@ body{
 }
 
 .container .box {
-  width: 480px;
+  width: 470px;
   height: 8.875em;
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.074);

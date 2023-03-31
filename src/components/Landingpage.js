@@ -23,7 +23,7 @@ const Landingpage = () => {
 
 
     <div className="">
-          <nav className=" my-8 flex gap-20 justify-center items-center">
+          <nav className=" my-8 flex gap-20 justify-center w-full items-center">
             <div className="flex justify-start">
               <div className=" flex w-3/5 justify-start">
                 <img src={Vector_1} alt="" className="md:w-3/5" />
@@ -120,7 +120,7 @@ const Landingpage = () => {
           </nav>
         </div>
 
-        <div className="text-center  my-20 flex flex-col gap-5 items-center z-0">
+        <div className="text-center  my-20 flex flex-col gap-10 items-center z-0">
           <p className="text-transparent text-4xl md:text-8xl bg-clip-text bg-gradient-to-r from-[#77FFE7] to-white z-0">
             BLOCKCHAIN
           </p>
@@ -133,7 +133,7 @@ const Landingpage = () => {
         </div>
 
         {/* cards */}
-        <section className="flex justify-between mx-20 md:my-20">
+        <section className="flex justify-between mx-80 md:my-20">
           <div>
           <div className="container">
             <div className="box text-white flex items-center">
