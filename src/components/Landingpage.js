@@ -15,11 +15,11 @@ const Landingpage = () => {
           src={videoBg}
           autoPlay="{true}"
           loop="{true}"
-          className=""
+          className="w-[2560px]"
         />
 
 
-    <div className="absolute w-screen top-0">
+    <div className="absolute w-full top-0">
 
 
     <div className="">
