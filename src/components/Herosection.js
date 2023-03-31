@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 const Herosection = () => {
   return (
     <>
-      <div>
+      <division>
         <video
           src={videoBg}
           autoPlay="{true}"
@@ -170,7 +170,7 @@ const Herosection = () => {
 
 
         </section>
-      </div>
+      </division>
     </>
   );
 };
