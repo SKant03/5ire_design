@@ -6,6 +6,7 @@ import DropdownItem from "rsuite/esm/Dropdown/DropdownItem";
 import videoBg from "../assets/videoBg.mp4";
 import { NavLink } from "react-router-dom";
 import Header from "./Header";
+import Email from "./Email";
 
 const Landingpage = () => {
   return (
@@ -34,6 +35,10 @@ const Landingpage = () => {
               SUSTAINABLITY
             </p>
           </div>
+
+          {/* searchbox */}
+
+          <Email/>
 
           {/* cards */}
           <section className="flex justify-between mx-36 w-5/6 md:mt-28 ">
