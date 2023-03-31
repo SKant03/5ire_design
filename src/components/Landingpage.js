@@ -24,7 +24,7 @@ const Landingpage = () => {
             <Header/>
           </div>
 
-          <div className="text-center  my-20 flex flex-col gap-10 items-center font-extralight z-0">
+          <div className="text-center  my-20 flex flex-col gap-6 items-center font-extralight z-0">
             <p className="text-transparent text-4xl md:text-9xl bg-clip-text bg-gradient-to-r from-[#77FFE7] to-white z-0">
               BLOCKCHAIN
             </p>
