@@ -14,6 +14,7 @@ const Herosection = () => {
   return (
     <>
       <div className="w-full">
+        <div className="overlay"></div>
       <video
         src={videoBg}
         autoPlay="{true}"
@@ -152,14 +153,14 @@ const Herosection = () => {
         <div className=""></div>
 
         <div className="about text-center  my-20 flex flex-col gap-6 items-center font-light z-0">
-          <p className="text-transparent text-4xl md:text-9xl bg-clip-text bg-gradient-to-r from-pink-300 to-[#77FFE7] z-0">
+          <p className="text-transparent text-4xl md:text-9xl bg-clip-text bg-gradient-to-r from-pink-500 to-[#77FFE7] z-0">
             BLOCKCHAIN
             
           </p>
-          <p className="text-transparent text-4xl md:text-9xl bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-400">
+          <p className="text-transparent text-4xl md:text-9xl bg-clip-text bg-gradient-to-r from-[#1FD1F9] to-[#7DDFF8]">
           MEETS
           </p>
-          <p className="text-transparent text-4xl md:text-9xl bg-clip-text font-normal bg-gradient-to-l from-cyan-400 to-pink-300 ">
+          <p className="text-transparent text-4xl md:text-9xl bg-clip-text font-normal bg-gradient-to-l from-pink-500 to-cyan-400 ">
             SUSTAINABLITY
           </p>
         </div>
