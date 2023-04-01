@@ -7,15 +7,21 @@
 
 body{
   margin: 0;
+  background-color: blueviolet;
 }
 
-@media only screen and (min-width: 768px) {
-  body {zoom: 80%;}
+@media screen and (min-width: 1300px) {
+  body {zoom: 70%;}
 } 
+
+@media screen and (min-width: 1400px) {
+  body {zoom: 80%;}
+}
 
 *{
   margin: 0;
   padding: 0;
+  
 }
 
 .container {

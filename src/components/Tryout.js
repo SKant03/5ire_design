@@ -5,14 +5,16 @@ import Dropdown from "rsuite/Dropdown";
 import DropdownItem from "rsuite/esm/Dropdown/DropdownItem";
 import videoBg from "../assets/videoBg.mp4";
 import { NavLink } from "react-router-dom";
+import Header from "./Header";
+import Email from "./Email";
 import Vector from "../assets/Vector.png";
 
-
-const Header = () => {
+const Tryout = () => {
   return (
     <div>
-      <nav className=" my-8 flex flex-col md:flex-row justify-center items-center">
-              <div className="flex flex-row justify-start w-1/6">
+      <div>
+      <nav className=" my-8 flex flex-col bg-red-500 md:bg-blue-500 md:flex-row justify-center items-center">
+              <div className="flex flex-col md:flex-row justify-start w-1/6">
                 <div className=" flex justify-start">
                   <img src={Vector} alt="" className="md:w-3/12" />
                   <p className="flex text-transparent md:text-7xl text-6xl bg-clip-text bg-gradient-to-r from-indigo-400 to-white items-center ">
@@ -20,7 +22,7 @@ const Header = () => {
                   </p>
                 </div>
               </div>
-              <div className="2xl:text-3xl text-2xl text-white flex items-center gap-12">
+              <div className="2xl:text-3xl text-2xl text-white flex flex-col md:flex-row items-center gap-12">
                 <div className="flex">
                   <Dropdown title="About Us" className=" justify-center">
                     <div className="flex flex-col  bg-gradient-to-l from-[#4260D7] to-indigo-400 opacity-95 py-4 px-6  rounded-3xl text-2xl w-max my-6 absolute z-50">
@@ -129,8 +131,90 @@ const Header = () => {
                 </div>
               </div>
             </nav>
-    </div>
-  )
-}
+      </div>
 
-export default Header
+      <div className="">
+          </div>
+
+          <div className="text-center  my-20 flex flex-col gap-6 items-center font-extralight z-0">
+            <p className="text-transparent text-4xl md:text-8xl bg-clip-text bg-gradient-to-r from-[#77FFE7] to-white z-0">
+              BLOCKCHAIN
+            </p>
+            <p className="text-transparent text-4xl md:text-8xl bg-clip-text bg-gradient-to-r from-[#77FFE7] to-indigo-400">
+              MEETS
+            </p>
+            <p className="text-transparent text-4xl md:text-8xl bg-clip-text bg-gradient-to-r from-indigo-400 to-white ">
+              SUSTAINABLITY
+            </p>
+          </div>
+
+          {/* searchbox */}
+
+          <Email/>
+
+          {/* cards */}
+          <section className="flex justify-between mx-28 2xl:mx-60 mt-24 ">
+            <div>
+              <div className="container">
+                <div className="box text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-white flex items-center">
+                  <img
+                    src={Vector}
+                    alt=""
+                    className="w-1/5 rounded-full"
+                  />
+                  <NavLink to="/testnet" className="title">
+                    Testnet Beta
+                  </NavLink>
+                  <div className="flex flex-col">
+                    <strong></strong>
+                    <p></p>
+                    <span></span> <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div className="container">
+                <div className="box text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-white flex items-center">
+                  <img
+                    src={Vector}
+                    alt=""
+                    className="w-1/5 rounded-full"
+                  />
+                  <NavLink to="/documentation" className="title">
+                    5ire Documentation
+                  </NavLink>
+                  <div className="flex flex-col">
+                    <strong></strong>
+                    <p></p>
+                    <span></span> <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="container">
+                <div className="box text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-white flex items-center">
+                  <img
+                    src={Vector}
+                    alt=""
+                    className="w-1/5 rounded-full"
+                  />
+                  <NavLink to="/paertnerwithus" className="title">
+                    Partner with us
+                  </NavLink>
+                  <div className="flex flex-col">
+                    <strong></strong>
+                    <p></p>
+                    <span></span> <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </div>
+  );
+};
+
+export default Tryout;

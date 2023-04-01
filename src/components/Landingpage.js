@@ -17,7 +17,7 @@ const Landingpage = () => {
           src={videoBg}
           autoPlay="{true}"
           loop="{true}"
-          className="w-[2560px]"
+          className=" md:h-full h-screen "
         />
 
         <div className="absolute w-full top-0">
@@ -26,13 +26,13 @@ const Landingpage = () => {
           </div>
 
           <div className="text-center  my-20 flex flex-col gap-6 items-center font-extralight z-0">
-            <p className="text-transparent text-4xl md:text-9xl bg-clip-text bg-gradient-to-r from-[#77FFE7] to-white z-0">
+            <p className="text-transparent text-4xl md:text-8xl bg-clip-text bg-gradient-to-r from-[#77FFE7] to-white z-0">
               BLOCKCHAIN
             </p>
-            <p className="text-transparent text-4xl md:text-9xl bg-clip-text bg-gradient-to-r from-[#77FFE7] to-indigo-400">
+            <p className="text-transparent text-4xl md:text-8xl bg-clip-text bg-gradient-to-r from-[#77FFE7] to-indigo-400">
               MEETS
             </p>
-            <p className="text-transparent text-4xl md:text-9xl bg-clip-text bg-gradient-to-r from-indigo-400 to-white ">
+            <p className="text-transparent text-4xl md:text-8xl bg-clip-text bg-gradient-to-r from-indigo-400 to-white ">
               SUSTAINABLITY
             </p>
           </div>
@@ -42,14 +42,14 @@ const Landingpage = () => {
           <Email/>
 
           {/* cards */}
-          <section className="flex justify-between mx-80 md:mx-52 md:mt-16 ">
+          <section className="flex justify-between mx-32 2xl:mx-60 mt-24 ">
             <div>
               <div className="container">
                 <div className="box text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-white flex items-center">
                   <img
                     src={Vector}
                     alt=""
-                    className="md:w-1/5 rounded-full"
+                    className="w-1/5 rounded-full"
                   />
                   <NavLink to="/testnet" className="title">
                     Testnet Beta
@@ -69,7 +69,7 @@ const Landingpage = () => {
                   <img
                     src={Vector}
                     alt=""
-                    className="md:w-1/5 rounded-full"
+                    className="w-1/5 rounded-full"
                   />
                   <NavLink to="/documentation" className="title">
                     5ire Documentation
@@ -88,7 +88,7 @@ const Landingpage = () => {
                   <img
                     src={Vector}
                     alt=""
-                    className="md:w-1/5 rounded-full"
+                    className="w-1/5 rounded-full"
                   />
                   <NavLink to="/paertnerwithus" className="title">
                     Partner with us
