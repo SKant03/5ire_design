@@ -7,6 +7,7 @@ import videoBg from "../assets/videoBg.mp4";
 import { NavLink } from "react-router-dom";
 import Header from "./Header";
 import Email from "./Email";
+import Vector from "../assets/Vector.png";
 
 const Landingpage = () => {
   return (
@@ -46,7 +47,7 @@ const Landingpage = () => {
               <div className="container">
                 <div className="box text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-white flex items-center">
                   <img
-                    src={Vector_1}
+                    src={Vector}
                     alt=""
                     className="md:w-1/5 rounded-full"
                   />
@@ -66,7 +67,7 @@ const Landingpage = () => {
               <div className="container">
                 <div className="box text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-white flex items-center">
                   <img
-                    src={Vector_1}
+                    src={Vector}
                     alt=""
                     className="md:w-1/5 rounded-full"
                   />
@@ -85,7 +86,7 @@ const Landingpage = () => {
               <div className="container">
                 <div className="box text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-white flex items-center">
                   <img
-                    src={Vector_1}
+                    src={Vector}
                     alt=""
                     className="md:w-1/5 rounded-full"
                   />

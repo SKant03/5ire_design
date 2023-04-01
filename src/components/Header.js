@@ -5,21 +5,22 @@ import Dropdown from "rsuite/Dropdown";
 import DropdownItem from "rsuite/esm/Dropdown/DropdownItem";
 import videoBg from "../assets/videoBg.mp4";
 import { NavLink } from "react-router-dom";
+import Vector from "../assets/Vector.png";
 
 
 const Header = () => {
   return (
     <div>
-      <nav className=" my-8 flex px-20 gap-10 justify-center w-full items-center">
-              <div className="flex justify-start">
-                <div className=" flex w-3/5 justify-start">
-                  <img src={Vector_1} alt="" className="md:w-3/5" />
-                  <p className="flex items-center text-transparent md:text-7xl text-6xl bg-clip-text bg-gradient-to-r from-indigo-400 to-white ">
+      <nav className=" my-8 flex justify-center items-center">
+              <div className="flex flex-row justify-start w-1/6">
+                <div className=" flex justify-start">
+                  <img src={Vector} alt="" className="md:w-3/12" />
+                  <p className="flex text-transparent md:text-7xl text-6xl bg-clip-text bg-gradient-to-r from-indigo-400 to-white items-center ">
                     5ire
                   </p>
                 </div>
               </div>
-              <div className="md:text-3xl text-2xl text-white flex items-center gap-16">
+              <div className="md:text-3xl text-xl text-white flex items-center md:gap-12">
                 <div className="flex">
                   <Dropdown title="About Us" className=" justify-center">
                     <div className="flex flex-col  bg-gradient-to-l from-[#4260D7] to-indigo-400 opacity-95 py-4 px-6  rounded-3xl text-2xl w-max my-6 absolute z-50">
@@ -93,14 +94,35 @@ const Header = () => {
                   </Dropdown>
                 </div>
                 <div>
+                  <Dropdown title="Contact Us" className=" bg-transparent">
+                    <div className="flex flex-col bg-gradient-to-l from-[#4260D7] to-indigo-400 opacity-95 p-4 rounded-3xl text-2xl w-max my-4 absolute z-50">
+                      <NavLink to='/Twitter' className="py-4 mx-4">
+                        Twitter
+                      </NavLink>
+                      <NavLink to="/GitHub" className="py-4 mx-4">
+                        GitHub
+                      </NavLink>
+                      <NavLink to="/Discord" className="py-4 mx-4">
+                        Discord
+                      </NavLink>
+                      <NavLink to="/Telegram" className="py-4 mx-4">
+                        Telegram
+                      </NavLink>
+                      <NavLink to="/Crew" className="py-4 mx-4">
+                        Crew
+                      </NavLink>
+                    </div>
+                  </Dropdown>
+                </div>
+                <div>
                   <NavLink to="/sustainablity" className="">
                     Sustainablity
                   </NavLink>
                 </div>
-                <div className="relative -4">
+                <div className="bg-gradient-to-l from-[#4260D7] to-indigo-400 opacity-95 rounded-full">
                   <NavLink
                     to="/5ire Explorer"
-                    className="bg-gradient-to-l from-[#4260D7] to-indigo-400 opacity-95 px-8 font-light text-2xl h-[60px] flex justify-end items-center rounded-full text-black"
+                    className=" px-8 font-light text-2xl h-[60px] flex justify-end items-center  text-black hover:text-white"
                   >
                     5ire Explorer
                   </NavLink>
