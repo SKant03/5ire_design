@@ -9,7 +9,7 @@ import Header from "./Header";
 import Email from "./Email";
 import Vector from "../assets/Vector.png";
 import Buildtoearn from "./Buildtoearn";
-import vb from "../assets/vb.mp4"
+import vb1 from "../assets/vb1.mp4"
 
 const Herosection = () => {
   return (
@@ -17,9 +17,9 @@ const Herosection = () => {
       <div className="w-full">
         <div className="overlay"></div>
       <video
-        src={vb}
-        autoPlay="{true}"
-        loop="{true}"
+        src={vb1}
+        autoPlay={true}
+        loop={true}
         className=" w-full md:h-full h-[1440px] object-cover "
       />
 
