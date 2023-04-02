@@ -10,6 +10,14 @@ body{
   background-color: #2F2A75;
 }
 
+@media screen and (min-width: 600px) {
+  body {zoom: 50%;}
+}
+
+@media screen and (min-width: 900px) {
+  body {zoom: 60%;}
+}
+
 @media screen and (min-width: 1300px) {
   body {zoom: 70%;}
 } 
