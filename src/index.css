@@ -7,7 +7,8 @@
 
 body{
   margin: 0;
-  background-color: #2F2A75;
+  background: #07182E;
+  
 }
 
 @media screen and (min-width: 600px) {
@@ -128,125 +129,55 @@ body{
 
 /* Buildtoearn */
 
-.container1 {
-  --background: linear-gradient(to left, #880505 0%, #f36b11 100%);
-  width: 990px;
-  height: 554px;
-  padding: 4px;
-  border-radius: 5px;
-  overflow: visible;
-  display: flex;
-  align-items: center;
-  background: var(--background);
+.card {
+  width: 1290px;
+  height: 654px;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
   position: relative;
-}
-
-.container1 .box1 {
-  position: relative;
-  width: 980px;
-  height: 544px;
-  background: #1b1b1b;
-  display: -webkit-box1;
-  display: -ms-flexbox1;
   display: flex;
-  -webkit-box1-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box1-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 10px;
-}
-
-.container1 .box1 .content1 {
-  position: relative;
-  display: -webkit-box1;
-  display: -ms-flexbox1;
-  display: flex;
-  -webkit-box1-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box1-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box1-orient: vertical;
-  -webkit-box1-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  text-align: center;
-  gap: 20px;
-  padding: 0 20px;
-  width: 100%;
-  height: 100%;
+  place-content: center;
+  place-items: center;
   overflow: hidden;
+  border-radius: 40px;
 }
 
-.container1 .box1 .content1 .icon {
-  width: 50px;
-  height: 50px;
-  -webkit-box1-shadow: 0 0 0 4px #e6e6e6,
-    0 0 0 6px rgb(212, 10, 10);
-  box-shadow: 0 0 0 4px #e6e6e6,
-    0 0 0 6px rgb(212, 10, 10);
-  display: -webkit-box1;
-  display: -ms-flexbox1;
-  display: flex;
-  -webkit-box1-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box1-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-size: 2.5em;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+.card div {
+  z-index: 1;
+  color: white;
 }
 
-.container1 .box1::before {
+.card::before {
   content: '';
   position: absolute;
-  inset: -10px 50px;
-  border-top: 4px solid rgb(99, 89, 247);
-  z-index: -1;
-  border-bottom: 4px solid rgb(65, 44, 250);
-  z-index: -1;
-  z-index: -1;
-  -webkit-transform: skewY(15deg);
-  -ms-transform: skewY(15deg);
-  transform: skewY(15deg);
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+  width: 300px;
+  background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+  height: 530%;
+  animation: rotBGimg 2s linear infinite;
+  transition: all 0.9 linear;
 }
 
-.container1 .box1:hover::before {
-  -webkit-transform: skewY(0deg);
-  -ms-transform: skewY(0deg);
-  transform: skewY(0deg);
-  inset: -10px 40px;
+@keyframes rotBGimg {
+  from {
+    transform: rotate(180deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.container1 .box1::after {
+.card::after {
   content: '';
   position: absolute;
-  inset: 60px -10px;
-  border-left: 4px solid #880505;
-  z-index: -1;
-  border-right: 4px solid #aa551d;
-  z-index: -1;
-  -webkit-transform: skew(15deg);
-  -ms-transform: skew(15deg);
-  transform: skew(15deg);
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-}
+  background-color: #7f5a83;
+background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
 
-.container1 .box1:hover::after {
-  -webkit-transform: skew(0deg);
-  -ms-transform: skew(0deg);
-  transform: skew(0deg);
-  inset: 40px -10px;
-}
 
-.container1 .box1 .content1 {
-  border-radius: 0%;
-}
+  inset: 7px;
+  border-radius: 40px;
+}  
+/* .card:hover:before {
+  background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+  animation: rotBGimg 3.5s linear infinite;
+} */
+

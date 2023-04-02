@@ -237,7 +237,7 @@ const Herosection = () => {
     </div>
 
     <div>
-      {/* <Buildtoearn/> */}
+      <Buildtoearn/>
     </div>
     </>
   );
