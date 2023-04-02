@@ -8,7 +8,7 @@ const Buildtoearn = () => {
       <div className="text-white flex flex-col gap-20">
         <p className="text-center text-6xl font-semibold">#BuildToEarn</p>
         <div className="flex">
-          <div className="flex flex-col gap-10 text-[22px]">
+          <div className="flex flex-col gap-10 text-2xl">
             <li>Top 10 dApps to receive an incentive after evaluation.</li>
             <li>
               An opportunity to earn rewards through our referral program and

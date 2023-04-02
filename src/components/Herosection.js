@@ -10,6 +10,7 @@ import Email from "./Email";
 import Vector from "../assets/Vector.png";
 import Buildtoearn from "./Buildtoearn";
 import vb1 from "../assets/vb1.mp4"
+import Cards from "./Cards";
 
 const Herosection = () => {
   return (
@@ -238,6 +239,10 @@ const Herosection = () => {
 
     <div>
       <Buildtoearn/>
+    </div>
+
+    <div>
+      <Cards/>
     </div>
     </>
   );
