@@ -5,6 +5,16 @@
   background-color: blueviolet;
 }
 
+.bg-filter-blur{
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(60px);
+}
+
+.bg-clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 body{
   margin: 0;
   background: #07182E;
@@ -130,7 +140,7 @@ body{
 /* Buildtoearn */
 
 .card {
-  width: 1390px;
+  width: 1590px;
   height: 754px;
   background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
   position: relative;
