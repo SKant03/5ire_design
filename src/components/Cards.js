@@ -16,7 +16,7 @@ const Cards = () => {
   return (
     <div>
       {/* cards */}
-      <section className="flex flex-col gap-4 mx-32 2xl:px-60 mt-24 ">
+      <section className="flex flex-col gap-4 mx-32 2xl:px-60 my-24 ">
         <div>
         <div className="flex justify-evenly">
           <div>
