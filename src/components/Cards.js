@@ -9,12 +9,14 @@ import Header from "./Header";
 import Email from "./Email";
 import image2 from "../assets/image2.png";
 import image1 from "../assets/image1.png";
+import image3 from "../assets/image3.png";
+import image5 from "../assets/image5.png";
 
 const Cards = () => {
   return (
     <div>
       {/* cards */}
-      <section className="flex flex-col gap-10 mx-32 2xl:mx-60 mt-24 ">
+      <section className="flex flex-col gap-4 mx-32 2xl:px-60 mt-24 ">
         <div>
         <div className="flex justify-evenly">
           <div>
@@ -79,13 +81,13 @@ const Cards = () => {
             >
               <div className="box h-[720px] w-[720px] py-[40px] bg-[#5E51F3] backdrop:blur-3xl rounded-[20px] transition-all flex flex-col items-center hover:border relative">
                 <div className="my-10 flex flex-col items-center">
-                  <div className="title text-center text-white flex flex-col items-center gap-4">
-                    <h className="text-8xl">Universities</h>
+                  <div className="title text-center text-white flex flex-col items-center">
+                    <h className="text-7xl">Universities</h>
                     <br />
                     <img
-                    src={image1}
+                    src={image3}
                     alt=""
-                    className="rounded-full my-4 w-2/5"
+                    className="rounded-full my-4 w-3/5"
                   />
                     <p>
                     5ire helps universities leverage the power of sustainability and make their administration and operations digitalized, real-time and transparent.
@@ -103,13 +105,13 @@ const Cards = () => {
             >
               <div className="box h-[720px] w-[720px] py-[40px] bg-[#5E51F3] backdrop:blur-3xl rounded-[20px] transition-all flex flex-col items-center hover:border relative">
                 <div className="my-10 flex flex-col items-center">
-                  <div className="title text-center text-white flex flex-col items-center gap-2">
+                  <div className="title text-center text-white flex flex-col items-center">
                     <h className="text-7xl">Social Entrepreneurs</h>
                     <br />
                     <img
-                    src={image2}
+                    src={image5}
                     alt=""
-                    className="rounded-full my-4 w-2/6"
+                    className="rounded-full my-4 w-4/6"
                   />
                     <p>
                     5ire is fast, secure, and cheap. This makes us an ideal ecosystem for entrepreneurs who want to combine impact with business as they scale their mission.

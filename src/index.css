@@ -17,7 +17,8 @@
 
 body{
   margin: 0;
-  background: #07182E;
+  background-color: #4834d4;
+background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
   
 }
 
@@ -140,7 +141,7 @@ body{
 /* Buildtoearn */
 
 .card {
-  width: 1590px;
+  width: 1490px;
   height: 754px;
   background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
   position: relative;
